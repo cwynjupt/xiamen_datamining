@@ -1,3 +1,8 @@
+@font-face{
+font-family:"Emblema One";
+src:url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.woff"),
+    url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.tff");
+}
 body{
 width:1280px;
 margin:0 auto;
@@ -8,7 +13,7 @@ left:0;
 border:0;
 top:0;
 width:1280px;
-height:87px;
+height:96px;
 background-color:#cff;   
 }/*
 #bottom{
@@ -35,37 +40,44 @@ top:87px;
 }*/
 #center_left{
 position:absolute;
-width:600px;
+width:650px;
 left:280px;
-top:87px;
+top:96px;
 }
 #center_right{
 position:absolute;
-width:400px;
-left:880px;
-top:87px;
+width:350px;
+left:930px;
+top:96px;
+font-family:"Emblema One", sans-serif;
 }
+
 #center_bottom{
 position:absolute;
 width:1000px;
 left:280px;
 top:700px;
 }
-
+#end{
+position:absolute;
+width:1280px;
+left:0px;
+top:1280px;
+}
 #s{
 width:1280px;
 margin:0 auto;
 padding:0;
 position:relative;
 }
-
+/*
 #left select{
 	width:100px;
 	height: 30px;
 	appearance:none;
 	-moz-appearance:none;
 	-webkit-appearance:none;
-}
+}*/
 
 .input-group-addon
 {
@@ -89,10 +101,10 @@ list-style-type:none;
 margin-bottom: 4px;
 
 }  
-li.item,#selectItem
+li.item
 {
 	font-weight:bold;
-	font-family:Verdana, Geneva, sans-serif;
+	font-family:"Emblema One", sans-serif;
 	font-size:18px;
 	color:#7D9EC0;
 }
@@ -120,5 +132,46 @@ background-color:#cff;
 left:800px;
 top:0;
 }
+.text_label{
+color:black;
+font-family:"Microsoft Yahei";
+font-size:24px;
+font-weight:bold;
+}
+.text{
+color:black;
+font-family:"Microsoft Yahei";
+font-size:18px;
+font-weight:bold;
+}
+.title
+{
+left:300px;
+background-color:#cff;
+color:#428bca;
+font-weight:bold;
+font-family:"Emblema One";
+}
+.info{
+left:350px;
+/*background-color:#cff;*/
+font-size:18px;
 
+}
+.infom{
+width:1280px;
+margin:0 auto;
+border:1px solid #cff;
+}
+
+#move{
+position:absolute;
+	width:100px;
+	height:100px;
+	background-color:#000;
+	-webkit-transition:all 1s ease-in-out;/*分别是针对不同浏览器的差异性设置的标题头*/
+	transition:all 1s ease-in-out;
+	-moz-transition:all 1s ease-in-out;
+	-o-transition:all 1s ease-in-out;
+}
 

@@ -84,6 +84,7 @@ require.config({
 				//	document.getElementById("tableBorder").style.display="";
 					document.getElementById("titlex").style.display='block';
 					document.getElementById("pageb").style.display='block';
+					document.getELementById("center_right").style.display="";
 						
 	            //  alert(param.name);
 					var index=(param.name-20)/20;

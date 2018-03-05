@@ -42,7 +42,7 @@ for(var i=0;i<data.design.length;i++){
 
 var option = {
     title: {
-        text: '数据库数据值'
+        text: ''
     },
     tooltip: {
         show: true
@@ -53,6 +53,7 @@ var option = {
         size: ['80%', '80%'],
         textRotation : [0, 45, 90, -45],
         textPadding: 0,
+		
         autoSize: {
             enable: true,
             minSize: 14
