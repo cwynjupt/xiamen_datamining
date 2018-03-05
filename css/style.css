@@ -1,0 +1,124 @@
+body{
+width:1280px;
+margin:0 auto;
+overflow:scroll;
+}
+#top{
+left:0;
+border:0;
+top:0;
+width:1280px;
+height:87px;
+background-color:#cff;   
+}/*
+#bottom{
+position:absolute;
+width:1280px;
+left:0;
+top:87px;
+}*/
+#left{
+position:absolute;
+width:300px;
+left:0;
+}/*
+#right{
+position:absolute;
+width:1000px;
+left:213px;
+}
+#center_top{
+position:absolute;
+width:1000px;
+left:213px;
+top:87px;
+}*/
+#center_left{
+position:absolute;
+width:600px;
+left:280px;
+top:87px;
+}
+#center_right{
+position:absolute;
+width:400px;
+left:880px;
+top:87px;
+}
+#center_bottom{
+position:absolute;
+width:1000px;
+left:280px;
+top:700px;
+}
+
+#s{
+width:1280px;
+margin:0 auto;
+padding:0;
+position:relative;
+}
+
+#left select{
+	width:100px;
+	height: 30px;
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+}
+
+.input-group-addon
+{
+	background-color:#428bca;
+	color:#FFF;
+	
+}
+#other {
+	width:150px;
+	height: 30px;
+}
+#s{
+	width:100%;
+}
+
+#left ul{
+	margin:0;padding:0 
+}
+#left li{  
+list-style-type:none; 
+margin-bottom: 4px;
+
+}  
+li.item,#selectItem
+{
+	font-weight:bold;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	color:#7D9EC0;
+}
+#table{
+    text-align:center;
+	width:1000px;
+}
+#table td{
+    font:13px "Microsoft Yahei";
+    cursor:default;
+	word-wrap:break-word;
+}
+#table th{
+    text-align:center;
+    background-color:#cff;
+
+}
+#table tr:hover{
+    background-color:#cff;
+}/*
+#table tr:nth-child(2n){
+background-color:#cff;
+}*/
+#pageb{
+left:800px;
+top:0;
+}
+
+
